@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("http://fonts.googleapis.com/css?family=Righteous");
 @import url("http://fonts.googleapis.com/css?family=Vollkorn:400");
 @import url("http://fonts.googleapis.com/css?family=Noto+Sans:700");
 @import url("http://fonts.googleapis.com/css?family=Source+Code+Pro");
@@ -455,12 +454,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 48, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 47, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 body {
   background: #fafafa;
   color: #323232; }
 
-/* line 52, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 51, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 div.pgWrapper {
   font-size: 16px;
   font-family: "Vollkorn", "YuMin-Medium", "游明朝体", "ヒラギノ明朝 Pro", serif;
@@ -468,7 +467,7 @@ div.pgWrapper {
   font-weight: 400;
   line-height: 32px; }
 
-/* line 55, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 54, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 h1, h2, h3, h4, h5, h6, b, em, strong {
   font-size: 16px;
   font-family: "Noto Sans", "YuGothic", "YuGo-Bold", sans-serif;
@@ -476,7 +475,7 @@ h1, h2, h3, h4, h5, h6, b, em, strong {
   font-weight: 700;
   line-height: 32px; }
 
-/* line 58, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 57, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 a {
   color: #1428b4;
   background: #e6e6e6;
@@ -486,7 +485,7 @@ a {
   text-decoration: none;
   transition: color 0.2s linear 0, background-color 0.2s linear 0; }
 
-/* line 67, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 66, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 a:hover {
   color: #3c78ff;
   background: transparent; }
