@@ -455,12 +455,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 46, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 48, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 body {
   background: #fafafa;
   color: #323232; }
 
-/* line 50, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 52, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 div.pgWrapper {
   font-size: 16px;
   font-family: "Vollkorn", "YuMin-Medium", "游明朝体", "ヒラギノ明朝 Pro", serif;
@@ -468,7 +468,7 @@ div.pgWrapper {
   font-weight: 400;
   line-height: 32px; }
 
-/* line 53, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 55, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 h1, h2, h3, h4, h5, h6, b, em, strong {
   font-size: 16px;
   font-family: "Noto Sans", "YuGothic", "YuGo-Bold", sans-serif;
@@ -476,18 +476,24 @@ h1, h2, h3, h4, h5, h6, b, em, strong {
   font-weight: 700;
   line-height: 32px; }
 
-/* line 56, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 58, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 a {
   color: #1428b4;
-  text-decoration: none; }
+  background: #e6e6e6;
+  padding: 3px 3px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  text-decoration: none;
+  transition: color 0.2s linear 0, background-color 0.2s linear 0; }
 
-/* line 60, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
+/* line 67, /Users/ktakad/code/web/sou-sou/source/stylesheets/_setting.sass */
 a:hover {
-  color: #2850fa; }
+  color: #3c78ff;
+  background: transparent; }
 
 /* line 1, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_setting.sass */
 div.pgWrapper {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto; }
 
 /* line 3, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/global/_header.sass */
@@ -502,10 +508,10 @@ header.globalHeader h1 {
   /* line 8, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/global/_header.sass */
   header.globalHeader h1 a {
     color: #fafafa;
-    text-shadow: 1px 0 0 #323232, 0 1px 0 #323232, -1px 0 0 #323232, 0 -1px 0 #323232, 1px 1px 0 #323232, -1px 1px 0 #323232, 1px -1px 0 #323232, -1px -1px 0 #323232; }
+    text-shadow: 1px 0 0 #1428b4, 0 1px 0 #1428b4, -1px 0 0 #1428b4, 0 -1px 0 #1428b4, 1px 1px 0 #1428b4, -1px 1px 0 #1428b4, 1px -1px 0 #1428b4, -1px -1px 0 #1428b4; }
   /* line 11, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/global/_header.sass */
   header.globalHeader h1 a:hover {
-    color: #2850fa; }
+    text-shadow: 1px 0 0 #3c78ff, 0 1px 0 #3c78ff, -1px 0 0 #3c78ff, 0 -1px 0 #3c78ff, 1px 1px 0 #3c78ff, -1px 1px 0 #3c78ff, 1px -1px 0 #3c78ff, -1px -1px 0 #3c78ff; }
 
 /* line 3, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/global/_nav.sass */
 nav.globalNav > ul {
@@ -521,11 +527,8 @@ nav.globalNav > ul {
     /* line 14, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/global/_nav.sass */
     nav.globalNav > ul > li > a {
       display: block;
-      text-align: center;
-      padding-top: 4px; }
-    /* line 18, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/global/_nav.sass */
-    nav.globalNav > ul > li > a:hover {
-      background: white; }
+      margin: 5px;
+      text-align: center; }
 
 /* line 1, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/global/_footer.sass */
 footer.globalFooter {
@@ -534,10 +537,10 @@ footer.globalFooter {
   padding-top: 20px;
   text-align: center; }
 
-/* line 5, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+/* line 8, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
 body.ssIndex div.pgBody section {
   margin: 40px 0; }
-/* line 8, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+/* line 11, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
 body.ssIndex div.pgBody h2 {
   margin: 15px 0 10px 0;
   font-size: 19.2px;
@@ -545,33 +548,33 @@ body.ssIndex div.pgBody h2 {
   letter-spacing: -0.576px;
   font-weight: 700;
   line-height: 38.4px; }
-/* line 11, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+/* line 14, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
 body.ssIndex div.pgBody h2:before {
   content: "✾";
   margin-right: 10px;
   color: #c83214;
   font-weight: 400; }
-/* line 18, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+/* line 21, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
 body.ssIndex div.pgBody ul > li {
   display: table;
   width: 100%; }
-  /* line 22, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+  /* line 25, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
   body.ssIndex div.pgBody ul > li h3, body.ssIndex div.pgBody ul > li div.date {
     display: table-cell;
     vertical-align: middle; }
-  /* line 26, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+  /* line 29, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
   body.ssIndex div.pgBody ul > li h3 {
     margin-left: 15px;
     text-indent: -15px;
     padding-left: 30px; }
-  /* line 30, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+  /* line 33, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
   body.ssIndex div.pgBody ul > li h3:before {
     content: "✎";
     display: inline-block;
-    width: 15px;
+    width: 8px;
     color: #c83214;
     font-weight: 400; }
-  /* line 37, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+  /* line 40, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
   body.ssIndex div.pgBody ul > li div.date {
     white-space: nowrap;
     text-align: right;
@@ -582,3 +585,58 @@ body.ssIndex div.pgBody ul > li {
     line-height: 15.36px;
     width: 220px;
     color: #c83214; }
+
+/* line 54, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+body.ssBlog div.pgBody section {
+  margin: 40px 0; }
+/* line 57, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+body.ssBlog div.pgBody h2 {
+  display: none; }
+/* line 60, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+body.ssBlog div.pgBody header {
+  margin: 20px 0; }
+  /* line 63, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+  body.ssBlog div.pgBody header h3 {
+    margin-left: 8px;
+    text-indent: -8px;
+    padding-left: 8px;
+    font-size: 24px;
+    font-family: "Vollkorn", "YuMin-Medium", "游明朝体", "ヒラギノ明朝 Pro", serif;
+    letter-spacing: -0.72px;
+    font-weight: 400;
+    line-height: 48px; }
+    /* line 69, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+    body.ssBlog div.pgBody header h3 a {
+      color: #fafafa;
+      text-shadow: 1px 0 0 #1428b4, 0 1px 0 #1428b4, -1px 0 0 #1428b4, 0 -1px 0 #1428b4, 1px 1px 0 #1428b4, -1px 1px 0 #1428b4, 1px -1px 0 #1428b4, -1px -1px 0 #1428b4; }
+    /* line 72, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+    body.ssBlog div.pgBody header h3 a:hover {
+      text-shadow: 1px 0 0 #3c78ff, 0 1px 0 #3c78ff, -1px 0 0 #3c78ff, 0 -1px 0 #3c78ff, 1px 1px 0 #3c78ff, -1px 1px 0 #3c78ff, 1px -1px 0 #3c78ff, -1px -1px 0 #3c78ff; }
+  /* line 75, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+  body.ssBlog div.pgBody header h3:before {
+    content: "✎";
+    display: inline-block;
+    width: 20px;
+    font-weight: 400;
+    color: #c83214;
+    text-shadow: none; }
+  /* line 83, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+  body.ssBlog div.pgBody header div.date {
+    white-space: nowrap;
+    font-size: 12.8px;
+    font-family: "Source Code Pro", monospace;
+    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 15.36px;
+    color: #c83214; }
+/* line 88, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+body.ssBlog div.pgBody nav.blogEntryFooter {
+  margin: 40px 0;
+  text-align: center; }
+
+/* line 96, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+body div.pgBody section {
+  text-align: justify; }
+  /* line 98, /Users/ktakad/code/web/sou-sou/source/stylesheets/pc/_index.sass */
+  body div.pgBody section p, body div.pgBody section ul {
+    margin: 25px 0; }
