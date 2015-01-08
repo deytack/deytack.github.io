@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>
+Android Studio からエミュレータが立ち上がらない時
+| www.sou-sou.net
+</title>
+<link href="/stylesheets/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body class='ssBlog'>
+<div class='pgWrapper'>
+<header class='globalHeader'>
+<h1><a href="/">www.sou-sou.net</a></h1>
+</header>
+
+<nav class='globalNav'>
+<ul>
+<li><a href="/">Index</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/ktakad/">Profile</a></li>
+</ul>
+</nav>
+
+<div class='pgBody'>
+<section class='blog'>
+<header>
+<h2>
+Blog
+</h2>
+</header>
+<div class='blogBody'>
+<article>
+<header>
+<h3><a href="/blog/entry/android-studio-からエミュレータが立ち上がらない時_2015-01-09/">Android Studio からエミュレータが立ち上がらない時</a></h3>
+<div class='date'>
+Created:
+2015-01-09 02:07:00 +0900
+</div>
+</header>
+<div class='articleBody'><p>Android Studio をインストールして、適当なサンプルファイルを Run しても、
+エミュレータに Android のロゴが表示されるだけで、10 分くらい待てどもそこから先に進まない。</p>
+
+<p>こんなエラーっぽい文言がコンソールに出ていたので調べる。</p>
+
+<pre><code>emulator: The memory needed by this VM exceeds the driver limit.
+HAX is not working and emulator runs in emulation mode
+</code></pre>
+
+<p>どうやら HAX (= Hardware Accelerated Execution) という仕組みを有効化しないと
+僕のマシンではまともに動いてくれないようだった。</p>
+
+<p>ここを参考に HAX Manager をインストールする。</p>
+
+<ul>
+  <li><a href="http://saku-java.be-ourselves.jp/2014/05/18/intel-x86-android-emulator-setting/">Androidエミュレータは遅い！重い！！Intel x86設定で高速化して使うべし | サクッとJava研修室</a></li>
+</ul>
+
+<p>で、設定がうまくいったようでコンソールに出る文字がこんなものに変わった。</p>
+
+<pre><code>HAX is working and emulator runs in fast girt mode
+</code></pre>
+
+<p>結果、とりあえず２分くらい待ったら起動してくれるようになった。
+に、２分…。2012 年の MacBook だとこんなもんなのか…。</p>
+
+<p>まあ、これからの検証でそんなに頻繁にエミュレータを立ち上げるわけでもなさそうだしいいか…。</p>
+</div>
+</article>
+</div>
+</section>
+<nav class='blogEntryFooter'>
+<a href="/blog/">記事一覧へ戻る</a>
+</nav>
+</div>
+<footer class='globalFooter'>
+<p>
+&copy; Copyright 2014-2015
+<a href="/">www.sou-sou.net</a>
+All Rights reserved.
+</p>
+</footer>
+
+</div>
+</body>
+</html>
